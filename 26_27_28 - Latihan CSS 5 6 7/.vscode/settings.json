@@ -1,0 +1,7 @@
+{
+	"editor.fontSize": 18,
+	"window.zoomLevel": 1,
+	"workbench.iconTheme": "vscode-icons",
+	"editor.tabSize": 4,
+	"liveServer.settings.port": 5501
+}

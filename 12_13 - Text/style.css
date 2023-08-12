@@ -1,0 +1,55 @@
+h1 {
+	font-family: Georgia;
+	font-size: 32px;
+	font-weight: normal;
+	text-transform: uppercase;
+	word-spacing: 0.5em;
+	letter-spacing: 0.1em;
+	text-align:center;
+	text-shadow: 5px 5px 5px #665544;
+}
+
+.credit {
+	font-family: Verdana;
+	font-size: 75%;
+	font-weight: bold;
+	font-style: italic;
+	text-transform: capitalize;
+	text-decoration: underline;
+	line-height: 1.4em;
+	text-align: center;
+}
+
+.tautan{
+	font-family: Verdana;
+	font-size: 75%;
+	font-style: oblique;
+	text-transform: lowercase;
+	text-decoration: none;
+}
+
+a.tautan:hover{
+	color: deeppink;
+}
+
+a.tautan:active{
+	color: darkcyan;
+}
+
+a.tautan:visited{
+	color: black;
+}
+
+p.intro {
+	font-family: Arial;
+	font-size: 1.1em;
+	font-weight: normal;
+	text-align: justify;
+	text-indent: 20px;
+}
+
+p.intro:first-letter{
+	font-size: 150%;
+	font-weight: bold;
+	font-family: 'Times New Roman', Times, serif;
+}

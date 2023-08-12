@@ -1,0 +1,55 @@
+/* universal Selector */
+*{
+	font-family:Tahoma;
+}
+/* Type Selector */
+h1{
+	font-size:30px;
+}
+
+
+/* Class Selector */
+.artikel{
+	font-size:25px;
+}
+
+.credit{
+	font-size:12px;
+}
+
+.penulis{
+	color:crimson;
+}
+
+.tanggal{
+	color:darkolivegreen;
+}
+
+/* id selector */
+
+#artikel-1{
+	color:darkolivegreen;
+}
+
+#artikel-2{
+	color:darkgoldenrod;
+}
+
+/* child selector */
+
+p>span{
+	color:blueviolet;
+}
+
+/* first child */
+h3+p{
+	color:grey;
+	font-size:20px;
+}
+
+/*  all child */
+
+h1~p{
+	text-align: justify;
+}
+

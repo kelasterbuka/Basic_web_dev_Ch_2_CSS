@@ -1,0 +1,50 @@
+/* Cascade */
+
+* {
+	font-family:Tahoma;
+}
+
+h1{
+	font-family:Times;
+}
+
+h3{
+	font-size:16px;
+}
+
+/* mengakses penulis dengan child selector*/
+h3>span{
+	color:crimson; /*lebih spesifik*/
+}
+
+/* merubah semua span */
+
+span {
+	color:blue;
+}
+
+
+/* inheritance */
+
+h3{
+	font-size: 12px;
+	padding:10px;
+}
+
+h3>span{
+	padding-left:inherit;
+	padding-right:inherit;
+}
+
+
+/* Color */
+
+h2{
+	color:beige;
+	background-color:black;
+	padding:10px;
+}
+
+h3{
+	background-color:rgba(100,25,0,0.2);
+}

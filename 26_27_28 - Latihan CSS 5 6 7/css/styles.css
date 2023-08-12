@@ -1,0 +1,154 @@
+*{
+	font-family: Arial;
+}
+
+/* Header */
+
+.header{
+	display:flex;
+	background-color: beige;
+	padding:10px;
+}
+
+.header-logo{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.header-logo img{
+	height:100px;
+}
+
+.header-title{
+	margin-top:auto;
+	margin-bottom:auto;
+}
+
+.header-title a{
+	text-decoration:none;
+	font-size:24px;
+	font-weight: bold;
+	color:black;
+}
+
+/* Nav Bar */
+
+.nav{
+	background-color: black;
+	padding:10px;
+	margin-top:0px;
+}
+
+.nav-item{
+	display:inline-block;
+	margin-left:20px;
+	height:20px;
+}
+
+.nav-item a{
+	color:white;
+	text-decoration:none;
+}
+
+.nav-item a:hover{
+	color: cadetblue;
+}
+
+/* konten */
+
+.konten{
+	width:80%;
+	margin:auto;
+}
+
+.konten h1{
+	color:darkolivegreen;
+	font-size:35px;
+}
+
+.konten h2{
+	font-size:22px;
+	color:darkgreen;
+}
+
+
+/* tabel */
+
+.tabel{
+	border-spacing:4px;
+}
+
+.tabel-header{
+	background-color: beige;
+}
+
+.tabel-header th{
+	padding:10px;
+	text-align:left;
+}
+
+.tabel-konten{
+	background-color: azure;
+}
+
+.tabel-genap{
+	background-color: aliceblue;
+}
+
+.tabel-konten td{
+	padding:10px;
+}
+
+td>img{
+	width:100px;
+}
+
+.tabel-konten:hover{
+	background-color:bisque;
+}
+
+/* Form */
+
+.form-group{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.form-group label{
+	display:block;
+	font-size: 20px;
+	color: rgb(135,135,135);
+}
+
+.form-group input{
+	display:block;
+	margin-top:10px;
+	width:60%;
+}
+
+.form-group textarea{
+	display:block;
+	margin-top:10px;
+	height:200px;
+	width:60%;
+}
+
+.btn{
+	width:150px;
+	height:50px;
+	font-size:20px;
+	font-weight: bold;
+	color:aliceblue;
+	background-color: darkgreen;
+	border:0px;
+	border-radius:20px;
+	cursor:pointer;
+}
+
+.btn:hover{
+	background-color: black;
+}
+
+.btn:active{
+	background-color: pink;
+}
